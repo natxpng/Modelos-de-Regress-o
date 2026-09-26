@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          CPatog2_log10   R-squared:                       0.663
+Model:                            OLS   Adj. R-squared:                  0.660
+Method:                 Least Squares   F-statistic:                     202.6
+Date:                Sat, 26 Sep 2026   Prob (F-statistic):           4.57e-26
+Time:                        15:36:39   Log-Likelihood:                -130.89
+No. Observations:                 105   AIC:                             265.8
+Df Residuals:                     103   BIC:                             271.1
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept         1.5817      0.185      8.567      0.000       1.216       1.948
+CPatog1_log10     0.9872      0.069     14.232      0.000       0.850       1.125
+==============================================================================
+Omnibus:                        0.118   Durbin-Watson:                   1.717
+Prob(Omnibus):                  0.943   Jarque-Bera (JB):                0.093
+Skew:                          -0.067   Prob(JB):                        0.954
+Kurtosis:                       2.940   Cond. No.                         6.61
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
